@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+.main-nav-div{
+    
+    background-color:lightskyblue;
+    box-shadow: 0 0 4px #bbd0e2;
+    position:fixed;
+    z-index:99;
+    justify-content: space-between;
+    padding:10px;
+    top:0;
+    border: 2px solid 2px;
+    left:0;
+    right:0;
+    padding:20px;
+}
+.nav-link ul{
+    gap:16px;
+}
+.hover-link {
+    cursor:pointer;
+}
+.hover-link:hover {
+    color: red;
+}
+.nav-item.active{
+    color:var(--accent-color);
+}
+ul{
+    list-style: none;
+}
+.nav-link ul {
+    font-size:20px;
+    gap:40px;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 10px;
+    justify-content:space-around;
+    
+}
+.flex{
+    display:flex;
+    align-items:center;
+}
+.search-bar{
+    height:32px;
+    gap:10px;
+    
+}
+.news-input {
+    width:200px;
+    height:100%;
+    padding-inline:12px;
+    border-radius: 4px;
+    border: 2px solid #bbd0e2;
+    font-family:'Times New Roman', Times, serif;
+}
+.search-button{
+    padding:8px 24px;
+    background-color:var(--accent-color);
+    border-radius:4px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+main{
+    padding:20px;
+    margin-top:100px;
+
+}
+.card-container{
+    
+    justify-content: space-between;
+    flex-wrap:wrap;
+    row-gap:20px;
+    align-items:start;
+    
+
+}
+.card{
+    width:360px;
+    min-height:400px;
+    box-shadow: 0 0 4px #d4ecfd;
+    border-radius:4px;
+    cursor:pointer;
+    background-color:#fff;
+    overflow:hidden;
+    transition:all 0.3s case
+    
+}
+.card:hover{
+    box-shadow:1px 1px 8px #d4ecfd;
+    background-color:#f9f9f9;
+    transform: transiateY(-2px);
+}
+.image-div img{
+    border-radius: 30px;
+    width:50px;
+    margin-left: 20px;
+}
+.card-image img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    
+}
+.card-content{
+    padding:20px;
+}
+#news-source{
+    margin-block:12px;
+}
