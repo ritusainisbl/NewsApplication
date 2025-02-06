@@ -1,2 +1,3 @@
 # NewsApplication
-http://127.0.0.1:5500/NewsApplication/index.html
+news-application-xi.vercel.app
+
